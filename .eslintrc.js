@@ -18,7 +18,6 @@ module.exports = {
   },
   plugins: ['react', 'prettier'],
   rules: {
-    'no-console': 'warn',
     'react/prop-types': 0,
     'linebreak-style': ['error', 'unix'],
     'prettier/prettier': 'error',
