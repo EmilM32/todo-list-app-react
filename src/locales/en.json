@@ -1,0 +1,7 @@
+{
+  "tabs": {
+    "ALL": "All tasks",
+    "INCOMPLETE": "Incomplete tasks",
+    "COMPLETED": "Completed tasks"
+  }
+}

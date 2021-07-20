@@ -1,7 +1,9 @@
 import '../styles/TaskFactory.sass'
 import { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 
 const TaskFactory = ({ addTask }) => {
+  const { t } = useTranslation('actions')
   const [task, setTask] = useState('')
 
   const handleAddTask = () => {
@@ -16,7 +18,7 @@ const TaskFactory = ({ addTask }) => {
         value={task}
         onChange={(e) => setTask(e.target.value)}
       />
-      <button onClick={handleAddTask}>Add Task</button>
+      <button onClick={handleAddTask}>{t('addTask')}</button>
     </div>
   )
 }
