@@ -2,7 +2,13 @@
 Simple app made with **ReactJS**
 
 ---
-## TODO
-add README
+## start dev
+```bash
+npm run start
+```
 
+## build for production
+```bash
+npm run build
+```
 ---
